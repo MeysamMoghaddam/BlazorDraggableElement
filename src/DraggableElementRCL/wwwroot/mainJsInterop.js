@@ -1,9 +1,4 @@
-// This is a JavaScript module that is loaded on demand. It can export any number of
-// functions, and may import other JavaScript modules if required.
 
-export function showPrompt(message) {
-    return prompt(message, 'Type anything here');
-}
 export function dragElementInitial(elmnt, top, left, dotNetHelper) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     if (elmnt) {
