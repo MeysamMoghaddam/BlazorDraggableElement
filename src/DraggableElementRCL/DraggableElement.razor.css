@@ -1,0 +1,10 @@
+﻿.draggable-element {
+    position: absolute;
+    z-index: 9;
+    cursor: move;
+}
+
+    .draggable-element:hover {
+        outline: 3px solid rgba(38,151,224,0.41);
+        outline-offset: 2px;
+    }
